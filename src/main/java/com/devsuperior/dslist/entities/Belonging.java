@@ -8,7 +8,7 @@ import org.hibernate.annotations.ManyToAny;
 import java.util.Objects;
 
 @Entity
-@Table(name = "tb_beloging")
+@Table(name = "tb_belonging")
 public class Belonging {
     @EmbeddedId
     private BelongingPK id = new BelongingPK();
